@@ -1,0 +1,52 @@
+/*
+
+*                   Tous les éléments
+div                 Toutes les balises div
+div, span           Toutes les balises span
+div span            Tous les span dans les div
+div > span          Tous les span enfants des div
+#bloc               Identifiant unique (id=’’bloc’’)
+.bloc               Classe (class=’’bloc’’)
+ul#bloc             Une liste (ul) avec un id bloc
+span.bloc           Span ayant la classe bloc
+#bloc *             Tous les éléments dans #bloc
+a:link              Lien
+a:active            Lien actif
+a:visited           Lien visité
+a:hover             Lien survolé
+
+*/
+
+* {
+    border-color: red;
+    border-width: 1px;
+}
+
+
+@font-face {
+    font-family: 'JetBrainsMono';
+    src: url("ressources/fonts/JetBrainsMono-Regular.ttf");
+}
+
+body {
+    background-color: #1f1f1f;
+}
+
+nav#navbar li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+nav#navbar ul {
+    position: absolute;
+    right:4%;
+}
+
+.navbarlink {
+    text-decoration: none;
+    font-family: "JetBrainsMono";
+    color: darkcyan;
+    font-size: 20px;
+}
