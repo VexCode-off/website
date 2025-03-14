@@ -21,6 +21,10 @@ nav * {
     border: 1px solid red;
 }
 
+nav {
+    border: 1px solid red;
+}
+
 @font-face {
     font-family: 'JetBrainsMono';
     src: url("ressources/fonts/JetBrainsMono-Regular.ttf");
@@ -35,6 +39,13 @@ nav#navbar li {
     margin: 0 7px;
     padding: 0;
     display: inline;
+}
+
+nav#navbar img {
+    position: absolute;
+    left: 0;
+    max-height : 100%;
+    width : auto;
 }
 
 nav#navbar ul {
