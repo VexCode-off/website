@@ -17,11 +17,9 @@ a:hover             Lien survolé
 
 */
 
-* {
-    border-color: red;
-    border-width: 1px;
+nav * {
+    border: 1px solid red;
 }
-
 
 @font-face {
     font-family: 'JetBrainsMono';
@@ -34,7 +32,7 @@ body {
 
 nav#navbar li {
     list-style-type: none;
-    margin: 0;
+    margin: 0 7px;
     padding: 0;
     display: inline;
 }
